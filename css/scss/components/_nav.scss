@@ -1,0 +1,28 @@
+//**
+// Navigation
+//**
+
+nav {
+  a {
+    font-size: .9em;
+    letter-spacing: .5em;
+    display: inline-block;
+    padding: 30px 30px;
+    color: $darkgray;
+    text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $silver;
+  }
+  }
+}
+
+a {
+  color: $darkgray;
+  
+  &:hover,
+  &:focus {
+    color: $silver;
+  }
+}

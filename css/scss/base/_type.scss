@@ -1,0 +1,250 @@
+//**
+// Typography
+//**
+
+
+ol, ul{
+  margin-top: 0px;
+  text-align: left;
+  padding-left: 1em;
+}
+
+.abudhabi{
+  padding-left:10%;
+  padding-right:10%;
+}
+
+.challenge{
+  margin-left: -1em;
+}
+
+.namefooter{
+  margin-top: .3em;
+}
+
+.nospace{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.bold{
+  font-family: "Proxima Nova Semibold";
+}
+
+.wide{
+  letter-spacing: .2em;
+}
+
+.vertical-align{
+  font-size: .8em;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1em;
+}
+
+//MATTERMARK
+.matterblue{
+  color: $matterblue;
+}
+
+//SAMAGROUP
+.samablue{
+  color: $samablue;
+}
+.samagold{
+  color: $samagold;
+}
+
+//NYU
+.nyupurple{
+  color: $nyupurple;
+}
+.nyuorange{
+  color: $nyuorange;
+}
+
+body {
+  font-family: "Proxima Nova Light";
+  // font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1.25em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: auto;
+  color: $darkgray;
+}
+
+.small{
+  font-size: 1em;
+}
+
+blockquote {
+  border-left: 2px solid $primary-color;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 1.4em;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0 0 $padding/2;
+  padding-left: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Futura";
+  color: $darkgray;
+  // font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+}
+
+.silver{
+  color: $silver;
+}
+
+h1 {
+  font-size: 6.328125em;
+  letter-spacing: .1em;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 0 25px;
+  padding-bottom: 1em;
+
+}
+
+.numbers {
+  font-size: 4em;
+  letter-spacing: auto;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0px;
+  line-height: 1em;
+  padding-bottom: 0px;
+  padding-top: .2em;
+}
+
+h2 {
+  font-size: 4.21875em;
+  letter-spacing: .2em;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 0 0px;
+  line-height: 1 !important;
+  margin-bottom: .5em;
+}
+
+h3 {
+  font-size: 2.8125em;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0 0 0px;
+}
+
+h4 {
+  font-size: 1.875em;
+  font-style: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h5{
+  font-size: 2.8125em;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 0em;
+  margin-bottom: .8333em;
+}
+
+h6{
+  font-family: 'Futura';
+  font-size: 1.875em;
+  font-style: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+p {
+  margin: 0 0 $padding/2;
+}
+
+pre {
+  background: #222;
+  color: #fff;
+  display: block;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0 0 $padding/2;
+  padding: 10px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+code {
+  border-radius: 5px;
+  background: #f5f5f5;
+  border: 1px solid rgba(0, 0, 0, .1);
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 2px 10px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+a {
+  color: $primary-color;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+
+
+
+
+// Responsive styles if needed
+// @include responsive($big-break) {
+// }
+@include responsive($small-break) {
+  body {
+    font-size: 14px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  h4,
+  h5,
+  p,
+  ul,
+  ol {
+    font-size: 14px;
+  }
+}
+
+// Mobile first styles if needed
+// @include mobilefirst($big-break) {
+// }
+// @include mobilefirst($small-break) {
+// }

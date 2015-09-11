@@ -1,0 +1,73 @@
+//**
+// Media
+//**
+
+img,
+video,
+audio,
+iframe,
+object {
+  max-width: 100%;
+}
+
+.profile{
+	margin-top: -.8em;
+}
+
+.herologo{
+	min-width: 100%;
+	padding: 0px;
+}
+
+#arrow{
+	position: absolute;
+	top: 85%;
+	left: 45%;
+}
+
+.workflow{
+	max-height: 200px;
+	margin-bottom: 1em;
+	margin-left: 25%;
+}
+
+.logoback{
+	background: url('../../img/logo3.svg') no-repeat 50% 50% fixed; 
+	background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	-webkit-background-size: cover !important;
+}
+
+.matterback{
+	background: url('../../img/mattermark/design_studio-min.png') no-repeat 50% 50% fixed; 
+	background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	-webkit-background-size: cover !important;
+}
+
+.samagroup{
+	background: url('../../img/sama/herologo.png') no-repeat 50% 50% fixed; 
+	background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	-webkit-background-size: cover !important;
+}
+
+.nyuback{
+	background: url('../../img/nyu/hero-min.png') no-repeat 50% 50% fixed; 
+	background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	-webkit-background-size: cover !important;
+}
+
+.fullscreen{
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.process{
+	max-width: 65%;
+}

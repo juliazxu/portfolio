@@ -1,0 +1,74 @@
+//**
+// Responsive Styles
+//**
+
+@include responsive($big-break) {
+  // e.g. iPad, tablets, small browsers
+
+  .numbers{
+  	padding-bottom: 0px;
+  	padding-top: .2em;
+  }
+
+}
+
+@include responsive($medium-break) {
+  // e.g. iPad, tablets, small browsers
+
+  .numbers{
+  	padding-bottom: 0px;
+  	padding-top: .2em;
+  }
+
+}
+
+
+
+@include responsive($small-break) {
+  // e.g. iPhone, mobile
+  body {
+    overflow-x: hidden;
+  }
+
+  .smallmargin{
+  	max-width: 80%;
+  	margin-left: 10%;
+  }
+
+  h1, h2, h3, h4, h5, h6, p {
+  	padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .leftsmall{
+  	padding-right: 20%;
+  }
+
+  .numbers{
+  	padding-bottom: 0px;
+  	padding-top: .2em;
+  }
+
+  ul{
+  	padding-left: 2em;
+  }
+
+  .process{
+  	max-width: 80%;
+  }
+
+  .aligntitle{
+  	text-align: center;
+  }
+
+  .logoback{
+	background: url('../../img/logo3.svg') no-repeat; 
+	background-size: 100% !important;
+	}
+
+	.littlesmall{
+		margin-top: none;
+		padding-top: none;
+		margin-top: -4em;
+	}
+}

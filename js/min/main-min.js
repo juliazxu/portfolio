@@ -1,0 +1,1 @@
+$(document).ready(function(){}),$("#example-one").on("click",function(){var t=$(this);t.text()==t.data("text-swap")?t.text(t.data("text-original")):t.text(t.data("text-swap"))});
